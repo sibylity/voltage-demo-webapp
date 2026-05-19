@@ -8,14 +8,6 @@ export const ListCreatedSchema = z.object({
   createdByUserId: z.string(),
 });
 
-export const ListDuplicatedSchema = z.object({
-  listId: z.string(),
-  listName: z.string(),
-  folderId: z.string(),
-  teamId: z.string(),
-  createdByUserId: z.string(),
-});
-
 export const ListRenamedSchema = z.object({
   listId: z.string(),
   previousName: z.string(),
