@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+// TODO -- add duplicate event
 export const ListCreatedSchema = z.object({
   listId: z.string(),
   listName: z.string(),
