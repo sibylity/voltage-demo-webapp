@@ -30,6 +30,7 @@ export const TaskCompletedSchema = z.object({
   teamId: z.string(),
   completedByUserId: z.string(),
   timeToCompleteMs: z.number().optional(),
+  wasOverdue: z.boolean().optional(),
 });
 
 export const TaskReopenedSchema = z.object({
