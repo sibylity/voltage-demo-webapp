@@ -22,7 +22,7 @@ export const UserProfileUpdatedSchema = z.object({
 
 export const schemas = {
   'User Signed Up': UserSignedUpSchema,
-  'User Signed In': UserSignedInSchema,
+  'User Signin': UserSignedInSchema,
   'User Signed Out': UserSignedOutSchema,
   'User Profile Updated': UserProfileUpdatedSchema,
 };
