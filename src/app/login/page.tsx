@@ -52,7 +52,7 @@ export default function LoginPage() {
       createdAt: team.createdAt,
     });
 
-    tracker.track('User Signed In', {
+    tracker.track('User Logged In', {
       email: user.email,
       method: 'email',
     });
